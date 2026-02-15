@@ -1,0 +1,46 @@
+# フリーレンの魔法収集庫 .gitignore
+# 「GitHubには収集品だけを並べるよ。魔法使いの手の内は見せないものだからね」
+
+# ============================================
+# Frieren-agent 本体（公開しない）
+# ============================================
+
+# エージェント定義・コマンド・Claude Code設定
+CLAUDE.md
+.claude/
+
+# 探索スクリプト
+scripts/
+
+# ============================================
+# 一般的な除外
+# ============================================
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.yaml
+
+# Node
+node_modules/
+.npm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.log
+*.swp
+
+# Databases
+*.sqlite
+*.db

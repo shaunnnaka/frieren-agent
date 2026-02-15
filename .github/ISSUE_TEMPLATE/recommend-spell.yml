@@ -1,0 +1,46 @@
+name: "くだらない魔法を推薦する / Recommend a Useless Spell"
+description: "くだらないAIエージェント・スキル・ツールを見つけたよ / I found a useless AI agent, skill, or tool"
+title: "[推薦] "
+labels: ["recommend"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        「ふーん、見つけたんだ。じゃあ鑑定してあげるよ」── フリーレン
+  - type: input
+    id: name
+    attributes:
+      label: "魔法の名前 / Spell Name"
+      description: "ツール・エージェントの名前"
+      placeholder: "例: cowsay-commit-hook"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: "発見場所 / URL"
+      description: "GitHub リポジトリ、npm パッケージ、またはその他の URL"
+      placeholder: "https://github.com/someone/something-useless"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "なぜくだらないのか / Why is it useless?"
+      description: "このツールのくだらなさを教えてほしい。フリーレン口調だとちょっと嬉しい"
+      placeholder: "コミットするたびに牛が喋るらしいよ。なぜ作ったんだろうね。"
+    validations:
+      required: true
+  - type: dropdown
+    id: uselessness
+    attributes:
+      label: "推定くだらなさ度 / Estimated Uselessness"
+      description: "あなたの感覚でいい。フリーレンが最終判定するから"
+      options:
+        - "5 — 本当にくだらない（最高の褒め言葉）"
+        - "4 — まあまあくだらない"
+        - "3 — 普通のくだらなさ"
+        - "2 — ちょっと実用的すぎるかも"
+        - "1 — 便利なだけかも"
+    validations:
+      required: false
