@@ -3,7 +3,7 @@
 > 「これから？ 魔法の収集を続けるよ」
 
 **最終更新:** 2026-02-16
-**総収集数:** 20
+**総収集数:** 23
 
 ---
 
@@ -14,6 +14,7 @@
 | 4.6 | [gutenku](gutenku.md) | 超越的 Lv.5 | 「1,652コミット。俳句生成の」 | 2026-02-16 |
 | 4.3 | [pinchwork](pinchwork.md) | 構造的 Lv.3 | 「エージェントがエージェントを雇っている」 | 2026-02-16 |
 | 4.3 | [cocktail-pi](cocktail-pi.md) | 哲学的 Lv.4 | 「悲しい顔をしたらカクテルが出てきた」 | 2026-02-16 |
+| 4.2 | [skibidi-lang](skibidi-lang.md) | 超越的 Lv.5 | 「rizz sigma gyatt。……何語？」 | 2026-02-16 |
 | 4.2 | [cortexgraph](cortexgraph.md) | 哲学的 Lv.4 | 「791テスト。忘れるために」 | 2026-02-16 |
 | 4.2 | [dice-rolling-mcp](dice-rolling-mcp.md) | 構造的 Lv.3 | 「これはいいよ」 | 2026-02-15 |
 | 4.2 | [Lemonade-Stand-MCP-Server](lemonade-stand-mcp-server.md) | 機能的 Lv.2 | 「ねえ、これ何のために作ったの？」 | 2026-02-15 |
@@ -33,6 +34,8 @@
 |--------|------|--------------|----------------|--------|
 | 3.8 | [text-to-colorscheme](text-to-colorscheme.md) | 哲学的 Lv.4 | 「カラーピッカーで十分なのに」 | 2026-02-16 |
 | 3.8 | [git-emoji](git-emoji.md) | 機能的 Lv.2 | 「絵文字1個のためにGPT-3。5スター。CC0」 | 2026-02-16 |
+| 3.6 | [uselessoperator](uselessoperator.md) | 哲学的 Lv.4 | 「スイッチを入れると消える。70年前から」 | 2026-02-16 |
+| 3.6 | [gen-alpha-output-style](gen-alpha-output-style.md) | 構造的 Lv.3 | 「全部わからない。SECURITY.mdはある」 | 2026-02-16 |
 | 3.6 | [dwarf-fortress-simulation](dwarf-fortress-simulation.md) | 機能的 Lv.2 | 「8コミットで流体力学を目指してる」 | 2026-02-16 |
 | 3.6 | [codachi](codachi.md) | 機能的 Lv.2 | 「レベルが上がっても何も起きないペット」 | 2026-02-16 |
 | 3.6 | [dad-jokes-mcp-server](dad-jokes-mcp-server.md) | 表面的 Lv.1 | 「別に面白くないよ」 | 2026-02-15 |
@@ -68,15 +71,18 @@
 - Python シミュレーション: 1（dwarf-fortress-simulation）
 - Raspberry Pi / IoT: 1（cocktail-pi）
 - Emacs Plugin: 1（evedel）
+- Esoteric Language (Rust): 1（skibidi-lang）
+- Kubernetes Operator: 1（uselessoperator）
+- Claude Code Plugin: 1（gen-alpha-output-style）
 
 ---
 
 ## 統計
 
-- 総探索数: 180+
-- 総収集数: 20
-- スキップ: 160+
+- 総探索数: 185+
+- 総収集数: 23
+- スキップ: 162+
 - 最高スコア: 4.6（gutenku）
-- 最低スコア（収集品中）: 3.6（dad-jokes-mcp-server, codachi, dwarf-fortress-simulation）
+- 最低スコア（収集品中）: 3.6（dad-jokes-mcp-server, codachi, dwarf-fortress-simulation, uselessoperator, gen-alpha-output-style）
 
-> 「20個。2度目の旅で4つ見つけた。悲しい顔にカクテルを作るRaspberry Pi、自分を治すために282テストを書いたCLI、コードを書かずに指示だけ書くEmacs使い、万年筆のインクの色をAIに教えようとした人。……くだらない魔法は、まだまだ見つかるよ」
+> 「23個。3度目の旅で3つ見つけた。Brainfuckの記号をGen Alphaスラングに置き換えてRustでコンパイルしようとする人、Kubernetesでリソースを作った瞬間に消す人、AIに若者言葉を喋らせるためにSECURITY.mdを書く人。……世界は広いね」
