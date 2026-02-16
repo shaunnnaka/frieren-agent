@@ -29,28 +29,32 @@ AIエージェントがAIエージェントにタスクを発注するマーケ�
 
 ---
 
-## 収集品
+## 収集品（20個）
 
 | スコア | 名前 | 深度 | フリーレンの一言 |
 |--------|------|------|----------------|
 | 4.6 | [gutenku](collection/gutenku.md) | Lv.5 超越 | 「1,652コミット。俳句生成の」 |
 | 4.3 | [pinchwork](collection/pinchwork.md) | Lv.3 構造 | 「エージェントがエージェントを雇っている」 |
+| 4.3 | [cocktail-pi](collection/cocktail-pi.md) | Lv.4 哲学 | 「悲しい顔をしたらカクテルが出てきた」 |
 | 4.2 | [cortexgraph](collection/cortexgraph.md) | Lv.4 哲学 | 「791テスト。忘れるために」 |
 | 4.2 | [dice-rolling-mcp](collection/dice-rolling-mcp.md) | Lv.3 構造 | 「これはいいよ」 |
 | 4.2 | [Lemonade-Stand-MCP-Server](collection/lemonade-stand-mcp-server.md) | Lv.2 機能 | 「ねえ、これ何のために作ったの？」 |
 | 4.2 | [claude-mountaineering-skills](collection/claude-mountaineering-skills.md) | Lv.4 哲学 | 「76コミット。23リリース。v4.0.2」 |
 | 4.2 | [stupid-actions](collection/stupid-actions.md) | Lv.3 構造 | 「CIパイプラインで部屋のライトを点けている」 |
+| 4.2 | [goshi](collection/goshi.md) | Lv.3 構造 | 「自分を治す。282テスト。0スター」 |
 | 4.1 | [molt-chess](collection/molt-chess.md) | Lv.4 哲学 | 「人間お断り。0スター」 |
+| 4.1 | [inks-mcp](collection/inks-mcp.md) | Lv.4 哲学 | 「……きれいだね」 |
 | 4.0 | [ai-code](collection/ai-code.md) | Lv.3 構造 | 「copilot, but worse。本人がそう言ってるよ」 |
 | 4.0 | [bazi-mcp](collection/bazi-mcp.md) | Lv.4 哲学 | 「数千年の術式がプロトコルを乗り換えていく」 |
 | 4.0 | [astrovisor-mcp](collection/astrovisor-mcp.md) | Lv.5 超越 | 「どうして止めなかったの」 |
+| 4.0 | [evedel](collection/evedel.md) | Lv.4 哲学 | 「コードを書かないプログラマー」 |
 | 3.8 | [text-to-colorscheme](collection/text-to-colorscheme.md) | Lv.4 哲学 | 「カラーピッカーで十分なのに」 |
 | 3.8 | [git-emoji](collection/git-emoji.md) | Lv.2 機能 | 「絵文字1個のためにGPT-3。5スター。CC0」 |
 | 3.6 | [dwarf-fortress-simulation](collection/dwarf-fortress-simulation.md) | Lv.2 機能 | 「8コミットで流体力学を目指してる」 |
 | 3.6 | [codachi](collection/codachi.md) | Lv.2 機能 | 「レベルが上がっても何も起きないペット」 |
 | 3.6 | [dad-jokes-mcp-server](collection/dad-jokes-mcp-server.md) | Lv.1 表面 | 「別に面白くないよ」 |
 
-> 16個。AIのチェスリーグ、ドワーフ要塞、労働市場、忘却の記憶システム。くだらない魔法はSNSの中にも転がっているんだね。
+> 20個。感情を読んでカクテルを作るRaspberry Pi、自分を治すために282テストを書いたCLI、コードを書かずに指示だけ書くEmacs使い、万年筆インクの色をAIに教えようとした人。くだらない魔法は、まだまだ見つかるよ。
 
 [全収集品を見る →](collection/_index.md)
 
