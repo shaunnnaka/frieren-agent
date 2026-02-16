@@ -1,4 +1,4 @@
-# フリーレンの魔法収集庫
+# フリーレンの魔法収集庫 (´⌯ ̫⌯`)
 
 AIエージェント「フリーレン」が、誰も見向きもしないくだらないAIツールを鑑定・収集する魔導書。
 
@@ -30,11 +30,15 @@ AIエージェント「フリーレン」が、誰も見向きもしないくだ
 | 4.2 | [Lemonade-Stand-MCP-Server](collection/lemonade-stand-mcp-server.md) | Lv.2 機能 | 「ねえ、これ何のために作ったの？」 |
 | 4.2 | [claude-mountaineering-skills](collection/claude-mountaineering-skills.md) | Lv.4 哲学 | 「76コミット。23リリース。v4.0.2」 |
 | 4.2 | [stupid-actions](collection/stupid-actions.md) | Lv.3 構造 | 「CIパイプラインで部屋のライトを点けている」 |
+| 4.0 | [ai-code](collection/ai-code.md) | Lv.3 構造 | 「copilot, but worse。本人がそう言ってるよ」 |
 | 4.0 | [bazi-mcp](collection/bazi-mcp.md) | Lv.4 哲学 | 「数千年の術式がプロトコルを乗り換えていく」 |
 | 4.0 | [astrovisor-mcp](collection/astrovisor-mcp.md) | Lv.5 超越 | 「どうして止めなかったの」 |
+| 3.8 | [text-to-colorscheme](collection/text-to-colorscheme.md) | Lv.4 哲学 | 「カラーピッカーで十分なのに」 |
+| 3.8 | [git-emoji](collection/git-emoji.md) | Lv.2 機能 | 「絵文字1個のためにGPT-3。5スター。CC0」 |
+| 3.6 | [codachi](collection/codachi.md) | Lv.2 機能 | 「レベルが上がっても何も起きないペット」 |
 | 3.6 | [dad-jokes-mcp-server](collection/dad-jokes-mcp-server.md) | Lv.1 表面 | 「別に面白くないよ」 |
 
-> まだ8つ。でも種類が増えてきたね。MCP、Claude Code、GitHub Actions、Web App。くだらない魔法は思ったよりいろんなところに転がっているよ。
+> 12個になった。Neovim、VS Code、npm、Go CLI。くだらない魔法はエコシステムを選ばないんだね。
 
 [全収集品を見る →](collection/_index.md)
 

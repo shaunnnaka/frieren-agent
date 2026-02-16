@@ -1,79 +1,135 @@
 # Frieren's Grimoire of Useless Spells
-### フリーレンの魔法収集庫
+
+AIエージェント「フリーレン」が、誰も見向きもしないくだらないAIツールを鑑定・収集する魔導書。
 
 [日本語](README.md)
 
-> *Frieren is a 1000-year-old elven mage from the manga/anime "[Frieren: Beyond Journey's End](https://en.wikipedia.org/wiki/Frieren)." Her lifelong hobby is collecting "useless spells" — magic that nobody values, yet holds a beauty of its own.*
+> *Frieren is a 1000-year-old elven mage from "[Frieren: Beyond Journey's End](https://en.wikipedia.org/wiki/Frieren)." Her lifelong hobby is collecting "useless spells" — magic that nobody values, yet holds a beauty of its own.*
 
-**A grimoire collecting obscure, niche, and "useless" AI agents, skills, and tools that nobody pays attention to. "Useless" is the highest compliment.**
+**An AI agent that curates obscure, absurd, and lovingly crafted AI tools that nobody pays attention to. "Useless" is the highest compliment.**
 
 ---
 
-## Recent Finds
+## Featured Appraisal
 
-<!-- Update with real data as collection grows -->
+### gutenku — Score 4.6/5.0 (Transcendent Uselessness Lv.5)
 
-| Score | Name | Tags | Frieren's Words |
-|-------|------|------|-----------------|
-| — | — | — | The journey has only just begun |
+> "1,652." (silence) "...commits. For haiku generation." (more silence) "Yeah. This is beyond useless. It's something else entirely."
 
-[See all collected items →](collection/_index.md)
+A web app that auto-generates haiku from Project Gutenberg's classic literature using Markov chains, genetic algorithms, neural networks, and OpenAI. Full-stack (Vue 3 + GraphQL + MongoDB) built for haiku. 11 stars, 1,652 commits.
 
-## Frieren Score
+[→ Read more](collection/gutenku.md)
 
-| Axis | Weight | Meaning |
-|------|--------|---------|
-| **Uselessness** | ×2 | The higher the better. "Why did you make this?" is the ultimate praise |
-| **Craftsmanship** | ×1 | Useless yet polished. That's what matters |
-| **Rarity** | ×2 | Uniqueness. Something you won't find even in 1000 years |
+---
+
+## Collection (12 items)
+
+| Score | Name | Depth | Frieren's Words |
+|-------|------|-------|-----------------|
+| 4.6 | [gutenku](collection/gutenku.md) | Lv.5 Transcendent | "1,652 commits. For haiku." |
+| 4.2 | [dice-rolling-mcp](collection/dice-rolling-mcp.md) | Lv.3 Structural | "This one's good." |
+| 4.2 | [Lemonade-Stand-MCP-Server](collection/lemonade-stand-mcp-server.md) | Lv.2 Functional | "Hey, what did you make this for?" |
+| 4.2 | [claude-mountaineering-skills](collection/claude-mountaineering-skills.md) | Lv.4 Philosophical | "76 commits. 23 releases. v4.0.2." |
+| 4.2 | [stupid-actions](collection/stupid-actions.md) | Lv.3 Structural | "They're turning on room lights from CI." |
+| 4.0 | [ai-code](collection/ai-code.md) | Lv.3 Structural | "Copilot, but worse. Their own words." |
+| 4.0 | [bazi-mcp](collection/bazi-mcp.md) | Lv.4 Philosophical | "Ancient arts migrating to new protocols." |
+| 4.0 | [astrovisor-mcp](collection/astrovisor-mcp.md) | Lv.5 Transcendent | "Why didn't anyone stop them?" |
+| 3.8 | [text-to-colorscheme](collection/text-to-colorscheme.md) | Lv.4 Philosophical | "A color picker would've been enough." |
+| 3.8 | [git-emoji](collection/git-emoji.md) | Lv.2 Functional | "GPT-3 for one emoji. 5 stars. CC0." |
+| 3.6 | [codachi](collection/codachi.md) | Lv.2 Functional | "A pet that does nothing when it levels up." |
+| 3.6 | [dad-jokes-mcp-server](collection/dad-jokes-mcp-server.md) | Lv.1 Surface | "Not funny." |
+
+> 12 items now. Neovim, VS Code, npm, Go CLI. Useless spells don't discriminate by ecosystem.
+
+[See full collection →](collection/_index.md)
+
+---
+
+## Submit an Appraisal Request
+
+Found a useless spell? [Open an Issue](../../issues/new?template=recommend-spell.yml).
+
+**The AI agent Frieren will appraise it.**
+
+<details>
+<summary>See appraisal examples (Hall of Fame / Collected)</summary>
+
+#### Hall of Fame: stupid-actions (4.2/5.0)
 
 ```
-Score = (Uselessness × 2 + Craftsmanship + Rarity × 2) / 5
+## Appraisal: stupid-actions
+
+> "They're turning on room lights from a CI pipeline. The smart plug reacts
+>  every time someone commits. What even is this."
+
+Security: Mimic check clear
+Uselessness Depth: Structural (Lv.3)
+
+| Axis | Score | Frieren's Eye |
+|------|-------|---------------|
+| "Why did you make this?" | 5/5 | "None of it means anything. That's what makes it good." |
+| Craftsmanship | 4/5 | "111 commits. Video tutorials. Seriously dedicated to nonsense." |
+| Will it survive 1000 years? | 3.5/5 | "Being first has value that doesn't expire." |
+| **Total** | **4.2/5.0** | |
+
+→ Verdict: Hall of Fame
 ```
 
-4.0+ Hall of Fame / 3.0+ Collected / 2.0+ On Hold / <2.0 Skipped
+</details>
 
-## What is this?
+---
 
-The world is full of powerful AI tools. But those are just "common offensive magic" — in 80 years, everyone will use them. Boring.
+## Use the Agent Yourself
 
-What I collect are **things nobody notices, yet someone crafted with care**. Use them, and the world becomes just a little more fun.
-
-## Usage
+Clone this repo and run with [Claude Code](https://claude.ai/claude-code):
 
 ```bash
-git clone https://github.com/{your-username}/frieren-grimoire.git
-cd frieren-grimoire
+git clone https://github.com/shaunnnaka/frieren-agent.git
+cd frieren-agent
 claude
 ```
 
 ```
 /collect                                          # Go searching for useless spells
 /evaluate https://github.com/someone/something    # Appraise a specific tool
-/expedition cat-related useless agents             # Deep dive into a theme
+/expedition cat-related agents                    # Deep dive into a theme
 ```
 
-## Collection Policy
+The agent definition (`.claude/agents/frieren.md`) and slash commands (`.claude/commands/`) are included in the repo. You'll need your own `CLAUDE.md` project config.
 
-**Collected:** Obscure niche tools nobody notices / Absurd names or purposes / Carefully crafted despite uselessness / Rare items at risk of disappearing
+<details>
+<summary>Frieren Score</summary>
 
-**Not collected:** Too famous (10,000+ Stars) / Malicious tools / Unclear licenses
+I don't really want to put numbers on things. But humans seem to need them.
 
-## Contributing
+| Axis | What I'm looking at |
+|------|-------------------|
+| **"Why did you make this?"** | The more mysterious the reason for existing, the better. "Useless" is my highest praise. |
+| **Craftsmanship** | Useless magic, yet polished with obsessive care. |
+| **Will it survive 1000 years?** | Rare. Fading. Found nowhere else. |
 
-If you find a useless spell, let me know.
+Verdict: Hall of Fame / Collected / On Hold / Skipped — 4 tiers.
 
-- Open an [**Issue**](../../issues/new?template=recommend-spell.yml) with "I found something useless" and I'll appraise it
-- **PRs** are welcome too. Follow the template
+> Uselessness has 5 depths: Surface, Functional, Structural, Philosophical, and Transcendent. I prefer the third and beyond. [→ Details](docs/philosophy.md)
 
-## License
+</details>
+
+<details>
+<summary>Collection Policy</summary>
+
+The world is full of powerful AI tools. But those are "common offensive magic." Everyone uses them, and they'll become ordinary soon enough.
+
+What I collect: **Overlooked. Useless. Yet lovingly crafted. On the verge of disappearing.** That kind of magic.
+
+Not collected: Too famous (common offensive magic belongs in other grimoires). Malicious tools (mimics). Broken tools are still recorded — magic is meant to be lost.
+
+</details>
+
+---
 
 MIT License — Useless spells should be shared freely.
 
 > This is a fan project inspired by "Frieren: Beyond Journey's End" (葬送のフリーレン) by Kanehito Yamada and Tsukasa Abe / Shogakukan. Not affiliated with or endorsed by the original creators.
 
----
-
-> 「仲間と共にしたくだらない冒険は、どれも掛け替えのない記憶として残っている」
-> *"The silly adventures shared with companions remain as irreplaceable memories."*
-> ── Eisen, the Warrior
+> "The silly adventures shared with companions remain as irreplaceable memories."
+> ── Eisen, the Warrior (Episode 3)
