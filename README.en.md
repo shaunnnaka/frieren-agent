@@ -10,7 +10,7 @@ AIエージェント「フリーレン」が、誰も見向きもしないくだ
 
 ---
 
-## Featured Appraisal
+## Featured Appraisals
 
 ### gutenku — Score 4.6/5.0 (Transcendent Uselessness Lv.5)
 
@@ -20,26 +20,38 @@ A web app that auto-generates haiku from Project Gutenberg's classic literature 
 
 [→ Read more](collection/gutenku.md)
 
+### pinchwork — Score 4.3/5.0 (Structural Uselessness Lv.3)
+
+> "Agents are hiring agents." (flatly) "128 commits. 68 tests. MIT. ...Hey, this is a labor market. An AI labor market."
+
+A task marketplace where AI agents post work and hire each other. Credit economy, escrow, third-party verification. A 7-star repository reinventing the labor market systems humans took millennia to build.
+
+[→ Read more](collection/pinchwork.md)
+
 ---
 
-## Collection (12 items)
+## Collection (16 items)
 
 | Score | Name | Depth | Frieren's Words |
 |-------|------|-------|-----------------|
 | 4.6 | [gutenku](collection/gutenku.md) | Lv.5 Transcendent | "1,652 commits. For haiku." |
+| 4.3 | [pinchwork](collection/pinchwork.md) | Lv.3 Structural | "Agents are hiring agents." |
+| 4.2 | [cortexgraph](collection/cortexgraph.md) | Lv.4 Philosophical | "791 tests. For forgetting." |
 | 4.2 | [dice-rolling-mcp](collection/dice-rolling-mcp.md) | Lv.3 Structural | "This one's good." |
 | 4.2 | [Lemonade-Stand-MCP-Server](collection/lemonade-stand-mcp-server.md) | Lv.2 Functional | "Hey, what did you make this for?" |
 | 4.2 | [claude-mountaineering-skills](collection/claude-mountaineering-skills.md) | Lv.4 Philosophical | "76 commits. 23 releases. v4.0.2." |
 | 4.2 | [stupid-actions](collection/stupid-actions.md) | Lv.3 Structural | "They're turning on room lights from CI." |
+| 4.1 | [molt-chess](collection/molt-chess.md) | Lv.4 Philosophical | "No humans allowed. 0 stars." |
 | 4.0 | [ai-code](collection/ai-code.md) | Lv.3 Structural | "Copilot, but worse. Their own words." |
 | 4.0 | [bazi-mcp](collection/bazi-mcp.md) | Lv.4 Philosophical | "Ancient arts migrating to new protocols." |
 | 4.0 | [astrovisor-mcp](collection/astrovisor-mcp.md) | Lv.5 Transcendent | "Why didn't anyone stop them?" |
 | 3.8 | [text-to-colorscheme](collection/text-to-colorscheme.md) | Lv.4 Philosophical | "A color picker would've been enough." |
 | 3.8 | [git-emoji](collection/git-emoji.md) | Lv.2 Functional | "GPT-3 for one emoji. 5 stars. CC0." |
+| 3.6 | [dwarf-fortress-simulation](collection/dwarf-fortress-simulation.md) | Lv.2 Functional | "Attempting fluid dynamics in 8 commits." |
 | 3.6 | [codachi](collection/codachi.md) | Lv.2 Functional | "A pet that does nothing when it levels up." |
 | 3.6 | [dad-jokes-mcp-server](collection/dad-jokes-mcp-server.md) | Lv.1 Surface | "Not funny." |
 
-> 12 items now. Neovim, VS Code, npm, Go CLI. Useless spells don't discriminate by ecosystem.
+> 16 items. An AI chess league, a dwarf fortress, a labor market, a memory system that forgets. Useless spells turn up even on social networks.
 
 [See full collection →](collection/_index.md)
 

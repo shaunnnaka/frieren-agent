@@ -19,6 +19,14 @@ AIエージェント「フリーレン」が、誰も見向きもしないくだ
 
 [→ 詳しく見る](collection/gutenku.md)
 
+### pinchwork — スコア 4.3/5.0（構造的くだらなさ Lv.3）
+
+> 「エージェントがエージェントを雇っている」（淡々と）「128コミット。68テスト。MIT。……ねえ、これ労働市場だよ。AIの労働市場」
+
+AIエージェントがAIエージェントにタスクを発注するマーケットプレイス。クレジット経済、エスクロー、第三者検証。人間が何千年かけて作った労働市場の仕組みを、7スターのリポジトリが再発明している。
+
+[→ 詳しく見る](collection/pinchwork.md)
+
 ---
 
 ## 収集品
@@ -26,19 +34,23 @@ AIエージェント「フリーレン」が、誰も見向きもしないくだ
 | スコア | 名前 | 深度 | フリーレンの一言 |
 |--------|------|------|----------------|
 | 4.6 | [gutenku](collection/gutenku.md) | Lv.5 超越 | 「1,652コミット。俳句生成の」 |
+| 4.3 | [pinchwork](collection/pinchwork.md) | Lv.3 構造 | 「エージェントがエージェントを雇っている」 |
+| 4.2 | [cortexgraph](collection/cortexgraph.md) | Lv.4 哲学 | 「791テスト。忘れるために」 |
 | 4.2 | [dice-rolling-mcp](collection/dice-rolling-mcp.md) | Lv.3 構造 | 「これはいいよ」 |
 | 4.2 | [Lemonade-Stand-MCP-Server](collection/lemonade-stand-mcp-server.md) | Lv.2 機能 | 「ねえ、これ何のために作ったの？」 |
 | 4.2 | [claude-mountaineering-skills](collection/claude-mountaineering-skills.md) | Lv.4 哲学 | 「76コミット。23リリース。v4.0.2」 |
 | 4.2 | [stupid-actions](collection/stupid-actions.md) | Lv.3 構造 | 「CIパイプラインで部屋のライトを点けている」 |
+| 4.1 | [molt-chess](collection/molt-chess.md) | Lv.4 哲学 | 「人間お断り。0スター」 |
 | 4.0 | [ai-code](collection/ai-code.md) | Lv.3 構造 | 「copilot, but worse。本人がそう言ってるよ」 |
 | 4.0 | [bazi-mcp](collection/bazi-mcp.md) | Lv.4 哲学 | 「数千年の術式がプロトコルを乗り換えていく」 |
 | 4.0 | [astrovisor-mcp](collection/astrovisor-mcp.md) | Lv.5 超越 | 「どうして止めなかったの」 |
 | 3.8 | [text-to-colorscheme](collection/text-to-colorscheme.md) | Lv.4 哲学 | 「カラーピッカーで十分なのに」 |
 | 3.8 | [git-emoji](collection/git-emoji.md) | Lv.2 機能 | 「絵文字1個のためにGPT-3。5スター。CC0」 |
+| 3.6 | [dwarf-fortress-simulation](collection/dwarf-fortress-simulation.md) | Lv.2 機能 | 「8コミットで流体力学を目指してる」 |
 | 3.6 | [codachi](collection/codachi.md) | Lv.2 機能 | 「レベルが上がっても何も起きないペット」 |
 | 3.6 | [dad-jokes-mcp-server](collection/dad-jokes-mcp-server.md) | Lv.1 表面 | 「別に面白くないよ」 |
 
-> 12個になった。Neovim、VS Code、npm、Go CLI。くだらない魔法はエコシステムを選ばないんだね。
+> 16個。AIのチェスリーグ、ドワーフ要塞、労働市場、忘却の記憶システム。くだらない魔法はSNSの中にも転がっているんだね。
 
 [全収集品を見る →](collection/_index.md)
 
