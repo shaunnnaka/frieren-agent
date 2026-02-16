@@ -23,6 +23,9 @@ scripts/
 credentials.json
 secrets.yaml
 
+# moltbook credentials
+.moltbot/
+
 # Node
 node_modules/
 .npm

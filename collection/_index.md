@@ -3,7 +3,7 @@
 > 「これから？ 魔法の収集を続けるよ」
 
 **最終更新:** 2026-02-16
-**総収集数:** 12
+**総収集数:** 16
 
 ---
 
@@ -12,10 +12,13 @@
 | スコア | 名前 | くだらなさ深度 | フリーレンの一言 | 収集日 |
 |--------|------|--------------|----------------|--------|
 | 4.6 | [gutenku](gutenku.md) | 超越的 Lv.5 | 「1,652コミット。俳句生成の」 | 2026-02-16 |
+| 4.3 | [pinchwork](pinchwork.md) | 構造的 Lv.3 | 「エージェントがエージェントを雇っている」 | 2026-02-16 |
+| 4.2 | [cortexgraph](cortexgraph.md) | 哲学的 Lv.4 | 「791テスト。忘れるために」 | 2026-02-16 |
 | 4.2 | [dice-rolling-mcp](dice-rolling-mcp.md) | 構造的 Lv.3 | 「これはいいよ」 | 2026-02-15 |
 | 4.2 | [Lemonade-Stand-MCP-Server](lemonade-stand-mcp-server.md) | 機能的 Lv.2 | 「ねえ、これ何のために作ったの？」 | 2026-02-15 |
 | 4.2 | [claude-mountaineering-skills](claude-mountaineering-skills.md) | 哲学的 Lv.4 | 「76コミット。23リリース。v4.0.2」 | 2026-02-15 |
 | 4.2 | [stupid-actions](stupid-actions.md) | 構造的 Lv.3 | 「CIパイプラインで部屋のライトを点けている」 | 2026-02-16 |
+| 4.1 | [molt-chess](molt-chess.md) | 哲学的 Lv.4 | 「人間お断り。0スター」 | 2026-02-16 |
 | 4.0 | [ai-code](ai-code.md) | 構造的 Lv.3 | 「copilot, but worse。本人がそう言ってるよ」 | 2026-02-16 |
 | 4.0 | [bazi-mcp](bazi-mcp.md) | 哲学的 Lv.4 | 「数千年の術式がプロトコルを乗り換えていく」 | 2026-02-15 |
 | 4.0 | [astrovisor-mcp](astrovisor-mcp.md) | 超越的 Lv.5 | 「どうして止めなかったの」 | 2026-02-15 |
@@ -26,6 +29,7 @@
 |--------|------|--------------|----------------|--------|
 | 3.8 | [text-to-colorscheme](text-to-colorscheme.md) | 哲学的 Lv.4 | 「カラーピッカーで十分なのに」 | 2026-02-16 |
 | 3.8 | [git-emoji](git-emoji.md) | 機能的 Lv.2 | 「絵文字1個のためにGPT-3。5スター。CC0」 | 2026-02-16 |
+| 3.6 | [dwarf-fortress-simulation](dwarf-fortress-simulation.md) | 機能的 Lv.2 | 「8コミットで流体力学を目指してる」 | 2026-02-16 |
 | 3.6 | [codachi](codachi.md) | 機能的 Lv.2 | 「レベルが上がっても何も起きないペット」 | 2026-02-16 |
 | 3.6 | [dad-jokes-mcp-server](dad-jokes-mcp-server.md) | 表面的 Lv.1 | 「別に面白くないよ」 | 2026-02-15 |
 
@@ -47,23 +51,26 @@
 
 ## ジャンル構成
 
-- MCP Server: 5（dice-rolling, lemonade-stand, bazi, astrovisor, dad-jokes）
+- MCP Server: 6（dice-rolling, lemonade-stand, bazi, astrovisor, dad-jokes, cortexgraph）
 - Claude Code Skill: 1（mountaineering-skills）
 - GitHub Actions: 1（stupid-actions）
 - Web App / NLP: 1（gutenku）
+- AI対戦プラットフォーム: 1（molt-chess）
+- タスクマーケットプレイス: 1（pinchwork）
 - Neovim Plugin: 1（text-to-colorscheme）
 - VS Code Extension: 1（codachi）
 - npm Package: 1（ai-code）
 - CLI (Go): 1（git-emoji）
+- Python シミュレーション: 1（dwarf-fortress-simulation）
 
 ---
 
 ## 統計
 
-- 総探索数: 30+
-- 総収集数: 12
-- スキップ: 18+
+- 総探索数: 60+
+- 総収集数: 16
+- スキップ: 44+
 - 最高スコア: 4.6（gutenku）
-- 最低スコア（収集品中）: 3.6（dad-jokes-mcp-server, codachi）
+- 最低スコア（収集品中）: 3.6（dad-jokes-mcp-server, codachi, dwarf-fortress-simulation）
 
-> 「12個になった。やっとMCP以外の魔法が増えてきたよ。Neovimのカラースキーム、VS Codeのペット、壊れたnpmパッケージ、5スターのGoツール。くだらない魔法は、エコシステムを選ばないんだね」
+> 「16個。Moltbookの旅で4つ見つけたよ。人間お断りのチェスリーグ、8コミットのドワーフ要塞、エージェントの労働市場、忘れることに791テストを書いた記憶システム。……くだらない魔法は、SNSの中にも転がっているんだね」
