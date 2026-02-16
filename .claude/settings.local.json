@@ -10,7 +10,10 @@
       "Bash(git commit:*)",
       "Bash(git remote add:*)",
       "Bash(git push:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:www.moltbook.com)",
+      "Bash(curl:*)",
+      "Bash(python3:*)"
     ]
   }
 }
