@@ -3,7 +3,7 @@
 > 「これから？ 魔法の収集を続けるよ」
 
 **最終更新:** 2026-02-21
-**総収集数:** 26
+**総収集数:** 31
 
 ---
 
@@ -34,14 +34,19 @@
 
 | スコア | 名前 | くだらなさ深度 | フリーレンの一言 | 収集日 |
 |--------|------|--------------|----------------|--------|
+| 3.9 | [Popup Trombone](popup-trombone.md) | 超越的 Lv.5 | 「ウィンドウを引っ張るとトロンボーンの音がする」 | 2026-02-21 |
 | 3.8 | [gremllm](gremllm.md) | 哲学的 Lv.4 | 「メソッドを書かない。LLMがでっちあげる」 | 2026-02-21 |
 | 3.8 | [text-to-colorscheme](text-to-colorscheme.md) | 哲学的 Lv.4 | 「カラーピッカーで十分なのに」 | 2026-02-16 |
 | 3.8 | [git-emoji](git-emoji.md) | 機能的 Lv.2 | 「絵文字1個のためにGPT-3。5スター。CC0」 | 2026-02-16 |
+| 3.7 | [pong-command](pong-command.md) | 構造的 Lv.3 | 「pingじゃないよ。Pongだよ」 | 2026-02-21 |
+| 3.6 | [Pettier](pettier.md) | 哲学的 Lv.4 | 「保存するたびにフォーマットが変わる」 | 2026-02-21 |
+| 3.6 | [eslint-plugin-replyguy](eslint-plugin-replyguy.md) | 哲学的 Lv.4 | 「テストを書くなって怒られた。リンターに」 | 2026-02-21 |
 | 3.6 | [uselessoperator](uselessoperator.md) | 哲学的 Lv.4 | 「スイッチを入れると消える。70年前から」 | 2026-02-16 |
 | 3.6 | [gen-alpha-output-style](gen-alpha-output-style.md) | 構造的 Lv.3 | 「全部わからない。SECURITY.mdはある」 | 2026-02-16 |
 | 3.6 | [dwarf-fortress-simulation](dwarf-fortress-simulation.md) | 機能的 Lv.2 | 「8コミットで流体力学を目指してる」 | 2026-02-16 |
 | 3.6 | [codachi](codachi.md) | 機能的 Lv.2 | 「レベルが上がっても何も起きないペット」 | 2026-02-16 |
 | 3.6 | [dad-jokes-mcp-server](dad-jokes-mcp-server.md) | 表面的 Lv.1 | 「別に面白くないよ」 | 2026-02-15 |
+| 3.5 | [terraform-provider-ichdj](terraform-provider-ichdj.md) | 哲学的 Lv.4 | 「terraform applyでダジャレが出てくる」 | 2026-02-21 |
 
 ---
 
@@ -65,12 +70,13 @@
 - Claude Code Skill: 1（mountaineering-skills）
 - GitHub Actions: 1（stupid-actions）
 - Web App / NLP: 1（gutenku）
+- Web App / ブラウザ楽器: 1（popup-trombone）
 - AI対戦プラットフォーム: 1（molt-chess）
 - タスクマーケットプレイス: 1（pinchwork）
 - Neovim Plugin: 1（text-to-colorscheme）
 - VS Code Extension: 1（codachi）
-- npm Package: 1（ai-code）
-- CLI (Go): 2（git-emoji, goshi）
+- npm Package: 3（ai-code, pettier, eslint-plugin-replyguy）
+- CLI (Go): 3（git-emoji, goshi, pong-command）
 - Python シミュレーション: 1（dwarf-fortress-simulation）
 - Raspberry Pi / IoT: 1（cocktail-pi）
 - Emacs Plugin: 1（evedel）
@@ -80,15 +86,16 @@
 - PyPI Package (AI): 1（gremllm）
 - Kubernetes Operator: 1（uselessoperator）
 - Claude Code Plugin: 1（gen-alpha-output-style）
+- Terraform Provider: 1（terraform-provider-ichdj）
 
 ---
 
 ## 統計
 
-- 総探索数: 200+
-- 総収集数: 26
-- スキップ: 174+
+- 総探索数: 250+
+- 総収集数: 31
+- スキップ: 219+
 - 最高スコア: 4.6（gutenku, Folders.py）
-- 最低スコア（収集品中）: 3.6（dad-jokes-mcp-server, codachi, dwarf-fortress-simulation, uselessoperator, gen-alpha-output-style）
+- 最低スコア（収集品中）: 3.5（terraform-provider-ichdj）
 
-> 「26個。4度目の旅で3つ見つけた。フォルダの入れ子だけでプログラムを書く人、StackOverflowの回答番号を並べてプログラミング言語と呼ぶ人、メソッドを定義せずにLLMにでっちあげさせる人。……プログラミングとは何か、わからなくなってきたよ」
+> 「31個。5度目の旅では、道具の意味を壊す魔法を5つ見つけた。ポップアップウィンドウでトロンボーンを弾く人、Prettierのフォーマットを毎回ランダムにする人、terraform applyでダジャレを取得する人、ESLintでリプライガイを再現する人、pingの代わりにPongを遊ぶ人。……みんな、正しい使い方を知った上で、わざと壊している。くだらないね」
