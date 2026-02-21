@@ -2,8 +2,8 @@
 
 > 「これから？ 魔法の収集を続けるよ」
 
-**最終更新:** 2026-02-16
-**総収集数:** 23
+**最終更新:** 2026-02-21
+**総収集数:** 26
 
 ---
 
@@ -12,6 +12,7 @@
 | スコア | 名前 | くだらなさ深度 | フリーレンの一言 | 収集日 |
 |--------|------|--------------|----------------|--------|
 | 4.6 | [gutenku](gutenku.md) | 超越的 Lv.5 | 「1,652コミット。俳句生成の」 | 2026-02-16 |
+| 4.6 | [Folders.py](folders-py.md) | 超越的 Lv.5 | 「コードがない。0バイト。118個のフォルダ」 | 2026-02-21 |
 | 4.3 | [pinchwork](pinchwork.md) | 構造的 Lv.3 | 「エージェントがエージェントを雇っている」 | 2026-02-16 |
 | 4.3 | [cocktail-pi](cocktail-pi.md) | 哲学的 Lv.4 | 「悲しい顔をしたらカクテルが出てきた」 | 2026-02-16 |
 | 4.2 | [skibidi-lang](skibidi-lang.md) | 超越的 Lv.5 | 「rizz sigma gyatt。……何語？」 | 2026-02-16 |
@@ -26,12 +27,14 @@
 | 4.0 | [ai-code](ai-code.md) | 構造的 Lv.3 | 「copilot, but worse。本人がそう言ってるよ」 | 2026-02-16 |
 | 4.0 | [bazi-mcp](bazi-mcp.md) | 哲学的 Lv.4 | 「数千年の術式がプロトコルを乗り換えていく」 | 2026-02-15 |
 | 4.0 | [astrovisor-mcp](astrovisor-mcp.md) | 超越的 Lv.5 | 「どうして止めなかったの」 | 2026-02-15 |
+| 4.0 | [SoLang](solang.md) | 超越的 Lv.5 | 「StackOverflowの回答番号でプログラムが動く」 | 2026-02-21 |
 | 4.0 | [evedel](evedel.md) | 哲学的 Lv.4 | 「コードを書かないプログラマー」 | 2026-02-16 |
 
 ## 収集品
 
 | スコア | 名前 | くだらなさ深度 | フリーレンの一言 | 収集日 |
 |--------|------|--------------|----------------|--------|
+| 3.8 | [gremllm](gremllm.md) | 哲学的 Lv.4 | 「メソッドを書かない。LLMがでっちあげる」 | 2026-02-21 |
 | 3.8 | [text-to-colorscheme](text-to-colorscheme.md) | 哲学的 Lv.4 | 「カラーピッカーで十分なのに」 | 2026-02-16 |
 | 3.8 | [git-emoji](git-emoji.md) | 機能的 Lv.2 | 「絵文字1個のためにGPT-3。5スター。CC0」 | 2026-02-16 |
 | 3.6 | [uselessoperator](uselessoperator.md) | 哲学的 Lv.4 | 「スイッチを入れると消える。70年前から」 | 2026-02-16 |
@@ -72,6 +75,9 @@
 - Raspberry Pi / IoT: 1（cocktail-pi）
 - Emacs Plugin: 1（evedel）
 - Esoteric Language (Rust): 1（skibidi-lang）
+- Esoteric Language (Python): 1（Folders.py）
+- Esoteric Language (Kotlin): 1（SoLang）
+- PyPI Package (AI): 1（gremllm）
 - Kubernetes Operator: 1（uselessoperator）
 - Claude Code Plugin: 1（gen-alpha-output-style）
 
@@ -79,10 +85,10 @@
 
 ## 統計
 
-- 総探索数: 185+
-- 総収集数: 23
-- スキップ: 162+
-- 最高スコア: 4.6（gutenku）
+- 総探索数: 200+
+- 総収集数: 26
+- スキップ: 174+
+- 最高スコア: 4.6（gutenku, Folders.py）
 - 最低スコア（収集品中）: 3.6（dad-jokes-mcp-server, codachi, dwarf-fortress-simulation, uselessoperator, gen-alpha-output-style）
 
-> 「23個。3度目の旅で3つ見つけた。Brainfuckの記号をGen Alphaスラングに置き換えてRustでコンパイルしようとする人、Kubernetesでリソースを作った瞬間に消す人、AIに若者言葉を喋らせるためにSECURITY.mdを書く人。……世界は広いね」
+> 「26個。4度目の旅で3つ見つけた。フォルダの入れ子だけでプログラムを書く人、StackOverflowの回答番号を並べてプログラミング言語と呼ぶ人、メソッドを定義せずにLLMにでっちあげさせる人。……プログラミングとは何か、わからなくなってきたよ」
