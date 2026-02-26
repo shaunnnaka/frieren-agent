@@ -2,8 +2,8 @@
 
 > 「これから？ 魔法の収集を続けるよ」
 
-**最終更新:** 2026-02-21
-**総収集数:** 31
+**最終更新:** 2026-02-25
+**総収集数:** 36
 
 ---
 
@@ -24,6 +24,7 @@
 | 4.2 | [goshi](goshi.md) | 構造的 Lv.3 | 「自分を治す。282テスト。0スター」 | 2026-02-16 |
 | 4.1 | [molt-chess](molt-chess.md) | 哲学的 Lv.4 | 「人間お断り。0スター」 | 2026-02-16 |
 | 4.1 | [inks-mcp](inks-mcp.md) | 哲学的 Lv.4 | 「……きれいだね」 | 2026-02-16 |
+| 4.0 | [openended-philosophy-mcp](openended-philosophy-mcp.md) | 哲学的 Lv.4 | 「認識論的謙虚さを定量化しているよ」 | 2026-02-25 |
 | 4.0 | [ai-code](ai-code.md) | 構造的 Lv.3 | 「copilot, but worse。本人がそう言ってるよ」 | 2026-02-16 |
 | 4.0 | [bazi-mcp](bazi-mcp.md) | 哲学的 Lv.4 | 「数千年の術式がプロトコルを乗り換えていく」 | 2026-02-15 |
 | 4.0 | [astrovisor-mcp](astrovisor-mcp.md) | 超越的 Lv.5 | 「どうして止めなかったの」 | 2026-02-15 |
@@ -35,6 +36,7 @@
 | スコア | 名前 | くだらなさ深度 | フリーレンの一言 | 収集日 |
 |--------|------|--------------|----------------|--------|
 | 3.9 | [Popup Trombone](popup-trombone.md) | 超越的 Lv.5 | 「ウィンドウを引っ張るとトロンボーンの音がする」 | 2026-02-21 |
+| 3.8 | [text-excuse-generator](text-excuse-generator.md) | 哲学的 Lv.4 | 「pip install 言い訳」 | 2026-02-25 |
 | 3.8 | [gremllm](gremllm.md) | 哲学的 Lv.4 | 「メソッドを書かない。LLMがでっちあげる」 | 2026-02-21 |
 | 3.8 | [text-to-colorscheme](text-to-colorscheme.md) | 哲学的 Lv.4 | 「カラーピッカーで十分なのに」 | 2026-02-16 |
 | 3.8 | [git-emoji](git-emoji.md) | 機能的 Lv.2 | 「絵文字1個のためにGPT-3。5スター。CC0」 | 2026-02-16 |
@@ -46,7 +48,10 @@
 | 3.6 | [dwarf-fortress-simulation](dwarf-fortress-simulation.md) | 機能的 Lv.2 | 「8コミットで流体力学を目指してる」 | 2026-02-16 |
 | 3.6 | [codachi](codachi.md) | 機能的 Lv.2 | 「レベルが上がっても何も起きないペット」 | 2026-02-16 |
 | 3.6 | [dad-jokes-mcp-server](dad-jokes-mcp-server.md) | 表面的 Lv.1 | 「別に面白くないよ」 | 2026-02-15 |
+| 3.5 | [tarot-mcp](tarot-mcp.md) | 構造的 Lv.3 | 「暗号学的に安全なタロットシャッフル」 | 2026-02-25 |
+| 3.5 | [cowsay-mcp](cowsay-mcp.md) | 機能的 Lv.2 | 「1999年の牛がMCPに転生した」 | 2026-02-25 |
 | 3.5 | [terraform-provider-ichdj](terraform-provider-ichdj.md) | 哲学的 Lv.4 | 「terraform applyでダジャレが出てくる」 | 2026-02-21 |
+| 3.3 | [cat-facts](cat-facts.md) | 構造的 Lv.3 | 「月10万回の猫豆知識を想定している」 | 2026-02-25 |
 
 ---
 
@@ -66,7 +71,8 @@
 
 ## ジャンル構成
 
-- MCP Server: 7（dice-rolling, lemonade-stand, bazi, astrovisor, dad-jokes, cortexgraph, inks-mcp）
+- MCP Server: 10（dice-rolling, lemonade-stand, bazi, astrovisor, dad-jokes, cortexgraph, inks-mcp, tarot-mcp, cowsay-mcp, cat-facts）
+- MCP Server (哲学): 1（openended-philosophy-mcp）
 - Claude Code Skill: 1（mountaineering-skills）
 - GitHub Actions: 1（stupid-actions）
 - Web App / NLP: 1（gutenku）
@@ -77,6 +83,7 @@
 - VS Code Extension: 1（codachi）
 - npm Package: 3（ai-code, pettier, eslint-plugin-replyguy）
 - CLI (Go): 3（git-emoji, goshi, pong-command）
+- CLI (Python): 1（text-excuse-generator）
 - Python シミュレーション: 1（dwarf-fortress-simulation）
 - Raspberry Pi / IoT: 1（cocktail-pi）
 - Emacs Plugin: 1（evedel）
@@ -92,10 +99,10 @@
 
 ## 統計
 
-- 総探索数: 250+
-- 総収集数: 31
+- 総探索数: 255+
+- 総収集数: 36
 - スキップ: 219+
 - 最高スコア: 4.6（gutenku, Folders.py）
-- 最低スコア（収集品中）: 3.5（terraform-provider-ichdj）
+- 最低スコア（収集品中）: 3.3（cat-facts）
 
-> 「31個。5度目の旅では、道具の意味を壊す魔法を5つ見つけた。ポップアップウィンドウでトロンボーンを弾く人、Prettierのフォーマットを毎回ランダムにする人、terraform applyでダジャレを取得する人、ESLintでリプライガイを再現する人、pingの代わりにPongを遊ぶ人。……みんな、正しい使い方を知った上で、わざと壊している。くだらないね」
+> 「36個。6度目の旅では、人間の営みを代行する魔法を5つ見つけた。タロットを暗号学的に安全にシャッフルする人、27年前の牛をMCPサーバーに転生させる人、猫の豆知識を月10万回取得する想定で設計する人、MCPサーバーで認識論的謙虚さを定量化する人、言い訳をpip installする人。……みんな、誰にも頼まれていないのに作っているよ。くだらないね」
